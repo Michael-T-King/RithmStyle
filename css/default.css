@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+ font-family: ProximaNova,sans-serif;
+ color: #fff;
+  background-color: #162831;
+}
+
+.container {
+  position: relative;
+  max-width: 1296px;
+  height: 100%;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,524 @@
+.header {
+  display: flex;
+position: relative;
+margin-top: 31px;
+min-height:60px;
+}
+
+.header__container {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+position: relative;
+}
+
+.logo__img {
+  width: 60px;
+  height: 60px;
+}
+
+.navigation {
+  display: flex;
+  position: relative;
+  height: 60px;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+  position: relative;
+  list-style: none;
+  gap: 50px;
+}
+
+.navigation__items-el {
+  text-decoration: none;
+  text-wrap: nowrap;
+  font-size: 14px;
+}
+
+.header__btn {
+  display: flex;
+  position: relative;
+  width: 155px;
+  height: 36px;
+  border-radius: 3px;
+  padding: 9px 15px;
+  background-color: #018ABE;
+  color: #fff;
+  font-weight: 600;
+  font-family: ProximaNova,sans-serif;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.first-screan {
+  display: block;
+  position: relative;
+  background-image: url('../img/big.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  margin-top: 49px;
+  padding-top: 136px;
+}
+
+.pre-title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 65px; 
+}
+
+.first-screan__mark-white {
+  display: flex;
+  position: relative;
+  width: 28px;
+  height: 14px;
+  align-self: center;
+}
+
+.mark-revers {
+  transform: scaleX(-1);
+}
+
+.pre-title__text {
+  font-family: ElMessiri-Bold, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.first-screan__title {
+  font-family: ElMessiri-Bold, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 38px;
+  line-height: 1.4;
+}
+
+.sessions-title {
+  margin-top: 145px;
+}
+
+.title {
+  display: flex;
+  position: relative;
+  min-height: 59px;
+  gap: 45px;
+  justify-content: center;
+}
+
+.sessions__mark-blue {
+  display: flex;
+  position: relative;
+  width: 28px;
+  height: 14px;
+  align-self: center;
+}
+
+.mark-revers-blue {
+  transform: scaleX(-1);
+}
+
+.sessions__text {
+  font-family: ElMessiri-Bold, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  text-wrap: nowrap;
+}
+
+.sessions__cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 24px;
+  margin-top: 98px;
+}
+
+.sessions__cards-items {
+  display: flex;
+  position: relative;
+  background-image: url(../img/small_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: ElMessiri-Bold;
+  font-weight: 700;
+  font-size: 24px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  height: 258px;
+  width: 416px;
+align-items: flex-end;
+}
+
+.card-large {
+  position: relative;
+  grid-row: span 2;
+  grid-column: span 1;
+  height: 540px;
+  width: 416px;
+  border-radius: 10px;
+  background-position: -200px top;
+  padding-left: 50px;
+  padding-bottom: 51px;
+}
+
+.reviews-title {
+  margin-top: 141px;
+}
+
+.reviews {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 62px;
+}
+
+.reviews__slider {
+  display: flex;
+  position: relative;
+  height: 350px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.reviews__slider-item {
+  width: 500px;
+  height: 276px;
+  overflow-y: auto;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(1, 138, 190, 0.4);
+  border-radius: 10px;
+  Line-height: 14px;
+}
+
+
+.checked-item {
+  display: block;
+  background-color:#018ABE;
+width: 636px;
+height: 350px;
+}
+
+.checked-item .reviews__slider-item--name{
+  margin: 55px 60px 30px 60px;
+  font-size: 20px;
+  font-family: ElMessiri-Bold, sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.checked-item .reviews__slider-item--text{
+  margin: 0 60px 30px 60px;
+  font-size: 14px;
+  font-family: ElMessiri-Bold, sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.reviews__slider-item--name {
+  font-family: ProximaNova,sans-serif;
+font-size: 16px;
+font-weight: 700;
+margin: 43px 40px 20px 40px;
+}
+
+.reviews__slider-item--text {
+  font-size: 10px;
+  font-weight: 300;
+  font-family: ProximaNova,sans-serif;
+  margin: 15px 43px 15px 43px;
+}
+
+.reviews__controls {
+  display: flex;
+  position: relative;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.control__img {
+ width: 16px;
+ height: 16px;
+}
+
+.about {
+  position: relative;
+  max-width: 1076px;
+  margin: 0 auto;
+}
+
+.about-title {
+  margin-top: 145px;
+}
+
+.abaut__container {
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  gap: 84px;
+min-height: 365px;
+align-items: center;
+}
+
+.about__description {
+  position: relative;
+  display: block;
+  width: 466px;
+  height: 100%;
+}
+
+.about__description-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: ProximaNova,sans-serif;
+}
+
+.about__description-text {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: ProximaNova,sans-serif;
+  color: #dcd7d7;
+  margin-top: 30px;
+  line-height: 1.3;
+}
+
+.about__description-text--part-two {
+  margin-top: 5px;
+}
+
+.about__description-img {
+  position: relative;
+  width: 526px;
+  height: 365px;
+}
+
+.abaut__container-reverse {
+  flex-direction: row-reverse;
+}
+
+.abaut__container-reverse .about__description-img {
+  height: 400px;
+}
+
+.price {
+  position: relative;
+  max-width: 1076px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.price-title {
+  margin-top: 125px;
+}
+
+.price__article {
+  display: block;
+  position: relative;
+  display: flex;
+  margin-top: 103px;
+  gap: 134px;
+  align-items: center;
+}
+
+.price__list {
+  display: flex;
+  flex-direction: column;
+gap: 29px;
+position: relative;
+list-style: none;
+width: 416px;
+}
+
+.price__items {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.price__items-block {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.price__items-mark{
+  display: flex;
+  width: 18px;
+  height: 9px;
+  margin-right: 20px;
+}
+
+.price__items-position {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.price__items-value {
+  position: relative;
+  display: inline-flex;
+  font-size: 18px;
+  font-family: ElMessiri-Bold, sans-serif;
+  font-weight: 700;
+}
+
+.price__items-img-block {
+  position: relative;
+  display: block;
+}
+
+.price__img {
+width: 526px;
+height: 408px;
+}
+
+.price__items-img-description {
+  margin-top: 23px;
+  font-size: 21px;
+  font-family: ElMessiri-Bold, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.address {
+  display: flex;
+  position: relative;
+  height: 100%;
+  margin-top: 150px;
+}
+
+.map__container {
+  display: flex;
+  position: relative;
+
+}
+
+.map {
+  width: 856px;
+  height: 604px;
+  margin-right: 48px;
+  border-radius: 10px;
+}
+
+.location {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+}
+
+.location--one {
+ left: 330px;
+ top: 66px;
+}
+
+.location--two {
+  left: 385px;
+  top: 366px;
+}
+
+.address__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 24px;
+}
+
+.address__workclass {
+  height: 290px;
+  width: 392px;
+  background-color: #018ABE;
+  border-radius: 10px;
+}
+
+.footer {
+  position: relative;
+  margin: 90px 0 30px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.copyright {
+  display: inline;
+  position: relative;
+  text-align: start;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: ProximaNova,sans-serif;
+}
+
+.made-den {
+  display: inline;
+  position: relative;
+  text-align: end;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: ProximaNova,sans-serif;
+}
+
+.address__title {
+  display: block;
+  position: relative;
+  font-size: 24px;
+  font-family: ElMessiri-Bold, sans-serif;
+  font-weight: 700;
+  margin-left: 45px;
+  margin-top: 35px;
+}
+
+.address__location-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  margin-top: 20px;
+  list-style: none;
+  gap: 20px;
+}
+
+.address__location-item {
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+
+.address__location-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.address__location-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.address__location-btn {
+  position: relative;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: ProximaNova,sans-serif;
+color: #018ABE;
+background-color: #fff;
+ border: none;
+ padding: 9px 15px;
+ border-radius: 3px;
+ margin-left: 45px;
+ margin-top: 30px;
+ cursor: pointer;
+}
